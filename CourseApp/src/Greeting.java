@@ -5,7 +5,7 @@ public class Greeting {
 	/*	string compName;
 		compName = "Remedy";
 		*/
-		int comNumber = 101;
+		int comNumber = 10101;
 		short myShort = 7;
 		long realLong = 777666999;
 		double myDouble = 0.77;

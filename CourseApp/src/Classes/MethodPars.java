@@ -1,4 +1,4 @@
-package Classes;
+package classes;
 
 class Robot {
 	// declaring parameters and their types in method

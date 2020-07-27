@@ -1,4 +1,4 @@
-package Classes;
+package classes;
 
 class Corporation {
 	//inaccessible outside this class

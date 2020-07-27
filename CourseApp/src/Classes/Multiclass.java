@@ -1,4 +1,4 @@
-package Classes;
+package classes;
 
 class Company {
 	// instance variables (data or state)

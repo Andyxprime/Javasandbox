@@ -18,12 +18,12 @@ public static void main(String[] args) {
 	
 	switch (text) {
 	case "help":
-		System.out.println("'help' - list of commands");
-		System.out.println("'add' or '+' - start add operation");
-		System.out.println("'sub' or '-' - start substract operation");
-		System.out.println("'mult' or '*' - start multiply operation");
-		System.out.println("'div' or '/' - start divide operation");
-		System.out.println("'exit' or 'X' - exit the app");
+		System.out.println("'help' - list of commands\n"
+				+ "'add' or '+' - start add operation\n"
+				+ "'sub' or '-' - start substract operation\n"
+				+ "'mult' or '*' - start multiply operation\n"
+				+ "'div' or '/' - start divide operation\n"
+				+ "'exit' or 'X' - exit the app");
 		break;
 	
 	case "add":
@@ -60,8 +60,8 @@ public static void main(String[] args) {
 		System.out.println("Enter second variable:");
 		B = input.nextInt();
 		if(B==0) {
-			System.out.println("Dividing by zero is forbidden. Enter a valid variable.");
-			System.out.println("Enter second variable:");
+			System.out.println("Dividing by zero is forbidden. Enter a valid variable.\n"
+					+ "Enter second variable:");
 			B = input.nextInt();
 		}
 		System.out.println("The result is: " + (A / B));

@@ -20,5 +20,8 @@ public static void main(String[] args) {
 	
 	ibm.start();
 	ibm.stop();
+	
+	Testclass newtest = new Testclass();
+	newtest.list();
 }
 }
